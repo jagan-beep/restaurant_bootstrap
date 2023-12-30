@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RJ-Restaurant</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="display-6 heading" href="#">RJ-Restaurant</a>
+        </li>
+        <li class="nav-item log">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#star">Starters</a></li>
+              <li><a class="dropdown-item" href="#bir">Biriyani's</a></li>
+            </ul>
+          </div>
+          
+        </li>
+        <li class="nav-item cart">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item contact">
+          <a class="nav-link" href="#contacts">Cart</a>
+        </li>
+        <li class="nav-item contact">
+          <a class="nav-link" href="#contacts">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="about">
+      <div class="container-fluid">
+        <img class="img-fluid" src="./images/2208919.jpg" />
+        <p class="display-4">
+          Tiered of cooking!<br />
+          Want to taste pure South-Indian food. Get tasty food for reasonable
+          price!
+        </p>
+        <marquee direction="scroll">Hurry up! First 10 Customers will get 50% OFF and a Free Drink</marquee>
+      </div>
+    </section>
+    <section class="starter" id="star">
+      <div class="chick-star">
+        <!-- <p class="d-inline-flex gap-1"></p> -->
+        <div class="text-center">
+        <p class="display-6">
+          Starters
+        </p>
+      </div>
+        
+        <div class="card-group ">
+          <div class="card text-bg-light">
+            <div class="card-header">Chicken-65</div>
+            <img src="./images/65.jpg" class="card-img-top" alt="Image of chicken-65">
+            <div class="card-body">
+              
+              <p class="card-text">$4.98</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div class="card text-bg-light">
+            <div class="card-header">Chicken-tandoori</div>
+            <img src="./images/5e850ba7862ca41c6a5f15bc_Tandoori-Chicken-1-p-800.jpeg" class="card-img-top" alt="Image of Chicken-Tandoori">
+            <div class="card-body">
+              <p class="card-text">$6.75</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div class="card text-bg-light">
+            <div class="card-header">dragon-chicken</div>
+            <img src="./images/dragon.jpg" class="card-img-top" alt="Image of dragon-chicken">
+            <div class="card-body">
+              <p class="card-text">$5.50</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-group ">
+          <div class="card text-bg-light">
+            <div class="card-header">Apoolo fish</div>
+            <img src="./images/apollo-fish-scaled-e1596296681478.jpg" class="card-img-top" alt="Image of Apollofish">
+            <div class="card-body">
+              
+              <p class="card-text">$7.99</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div class="card text-bg-light">
+            <div class="card-header">Lamb-Chops</div>
+            <img src="./images/lamb-chops.jpg" class="card-img-top" alt="Image of lamb-chops">
+            <div class="card-body">
+              <p class="card-text">$8.95</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div class="card text-bg-light">
+            <div class="card-header">Prwan-fry</div>
+            <img src="./images/prwan.JPG" class="card-img-top" alt="Image of Prwan-fry">
+            <div class="card-body">
+              <p class="card-text">$7.50</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      
+    </section>
+    <section class="Biryani" id="bir">
+      <div class="chick-star">
+        <div class="text-center">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          Biriyanis
+        </button>
+      </div>
+        <div style="min-height: 120px;">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+        <div class="card-group ">
+          <div class="card text-bg-light">
+            <div class="card-header">Chicken Biriyani</div>
+            <img src="./images/R.jpg" class="card-img-top" alt="Image of chicken-Biriyani">
+            <div class="card-body">
+              
+              <p class="card-text">$5.50</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div class="card text-bg-light">
+            <div class="card-header">Mutton Biriyani</div>
+            <img src="./images/lamb.jpg" class="card-img-top" alt="Image of lamb-biriyani">
+            <div class="card-body">
+              <p class="card-text">$8.75</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div class="card ">
+            
+            <div class="card-header">Prwan Biriyani</div>
+            <img src="./images/prwnbir.jpg" class="card-img-top" alt="Image of prawnbiriyani">
+            <div class="card-body">
+              <p class="card-text">$8.50</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div style="min-height: 120px;">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+        <div class="card-group ">
+          <div class="card">
+            <div class="card-header">Fish Biriyani</div>
+            <img src="./images/fishbir.jpg" class="card-img-top" alt="Image of fish-biriyani">
+            <div class="card-body">
+              
+              <p class="card-text">$9.99</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">Veg-Biriynai</div>
+            <img src="./images/vegbiri.jpg" class="card-img-top" alt="Image of Veg-Biriynai">
+            <div class="card-body">
+              <p class="card-text">$4.75</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">Paneer-biriyani</div>
+            <img src="./images/Paneer_Biryani_Recipe_1_1600.jpg" class="card-img-top" alt="Image of Paneer-biriyani">
+            <div class="card-body">
+              <p class="card-text">$5.50</p>
+              <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+          </div>
+          </div>
+    </section>
+    <footer class="icon" id="contacts">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <a class="navbar-brand" href="#">
+              <img src="./images/whatsapp-symbol-logo-svgrepo-com.svg" alt="Bootstrap" width="75" height="75">
+            </a>
+          </div>
+          <div class="col">
+            <a class="navbar-brand" href="#">
+              <img src="./images/facebook-svgrepo-com.svg" alt="Bootstrap" width="75" height="75">
+            </a>
+          </div>
+          <div class="col">
+            <a class="navbar-brand" href="#">
+              <img src="./images/instagram-1-svgrepo-com.svg" alt="Bootstrap" width="75" height="75">
+            </a>         
+           </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
